@@ -7,7 +7,7 @@
           Content-Type: "application/xml"
      body: "
                <messageML>
-                  New Web Site is online at http://{{ ansible_default_ipv4.address }}/index.html
+                  New Web Site is online at http://lxtoolsb1-sopv/index.html
                </messageML>"
      body_format: raw
      validate_certs: no
