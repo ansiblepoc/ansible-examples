@@ -15,6 +15,12 @@
   roles:
     - web
 
+- name: send notification to symphony
+  hosts: localhost
+  
+  roles:
+    - symphony
+    
 #- name: deploy MySQL and configure the databases
  # hosts: all
   #remote_user: root
